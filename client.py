@@ -11,6 +11,8 @@ def receive_messages(sock, canvas):
         data = sock.recv(1024)
         if not data:
             break
+        
+
 
         if data == b'':
             break
